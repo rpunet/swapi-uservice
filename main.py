@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import requests
 
-SWAPI_URL = "https://swapi.dev/api/"
+SWAPI_URL = "https://swapi.dev/api/people/"
 
 app = FastAPI()
 @app.get("/people")
