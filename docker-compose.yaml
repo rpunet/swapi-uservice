@@ -1,0 +1,7 @@
+version: '3'
+services:
+  swapi-service:
+    image: swapi-uservice
+    build: .
+    ports:
+      - "8000:8000"
