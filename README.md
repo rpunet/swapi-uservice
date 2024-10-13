@@ -21,11 +21,14 @@ Clone the repo first, then:
 ### option 2 - deploy service in local k8s cluster (Minikube)
 - start Minikube
 - Apply Deployment and Service:
-  run 'kubectl apply -f deployment.yaml'
-  run 'kubectl apply -f service.yaml'
-- Expose the service
-  run 'minikube service swapi-service'
-- It will open the browser with yout Minikube ip address and external port 30007. Then just add **/people** endopoint to get the data
+
+  run *kubectl apply -f deployment.yaml*
+
+  run *kubectl apply -f service.yaml*
+- Expose the service:
+
+  run *minikube service swapi-service*
+- It will open the browser with yout Minikube ip address and external port 30007. Then just add **/people** endopoint to the URL to get the data
   
   
   
