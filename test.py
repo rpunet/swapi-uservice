@@ -26,4 +26,4 @@ def test_traffic_load(concurrent_requests, duration):
     for thread in threads:
         thread.join()
 
-test_traffic_load(10, 60)
+test_traffic_load(10, 60)  # args: concurrent requests, duration time
